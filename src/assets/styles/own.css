@@ -1,0 +1,20 @@
+/*SOLO CSS PROPIO*/
+#root{
+    overflow: hidden;
+}
+
+.textstroke{
+
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.overlay{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 51%, rgba(45,52,54,0.4682247899159664) 100%);
+}
+
+.textbgsize{
+    font-size: 15rem;
+}
