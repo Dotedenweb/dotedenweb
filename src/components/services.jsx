@@ -6,7 +6,7 @@ import megaicon from '../assets/img/megaicon.svg'
 function BgElements(){
     return(
         <>  
-            <p className="onebg textstroke textbgsize absolute -top-24 -right-10 z-20 opacity-50">02</p>
+            <p className="twobg textstroke textbgsize absolute -top-28 -right-10 z-20 opacity-50">02</p>
         </>
     )
 }
@@ -16,7 +16,7 @@ function ServiceCard({icon, data}){
     const {title, subtitle, description, tagline, alt} = data;
         return(
             <>
-                <article className="h-[450px] w-full bg-gradient-to-br from-eden-200  to-eden-100 rounded-xl">
+                <article className="h-[450px] w-full gradientgreen rounded-xl ring ring-eden-200/50 shadow-2xl shadow-white/10">
                     <div className="headicon w-full flex flex-row justify-center py-4">
                         <img src={icon} alt={alt}  className="w-[100px] h-[100px]" />
                     </div>
@@ -40,7 +40,7 @@ function CardLarge({data}){
     const textButton = 'Más información';
             return(
                 <>
-                        <div className="article large-card h-[450px] w-full bg-gradient-to-br from-eden-200  to-eden-100 text-white p-5 rounded-xl relative">
+                        <div className="article large-card h-[450px] w-full gradientgreen text-white p-5 rounded-xl relative ring ring-eden-200/50 shadow-2xl shadow-white/10">
                             <p className="text-3xl font-bold">{title}</p>
                             <p className="font-black text-5xl leading-snug">{description}</p>
                             <div className="footer-card absolute bottom-0 left-0 py-4 px-4 w-full">
@@ -72,7 +72,7 @@ export default function Services(){
         alt : 'marketing'
     }
     return(
-        <section className="px-2 xl:px-48 2xl:px-72 3xl:px-80 4xl:px-96 h-screen w-full bg-gradient-to-r from-blackdot-200 to-blackdot-100 flex flex-row items-center">
+        <section className="px-2 xl:px-48 2xl:px-72 3xl:px-80 4xl:px-96 h-screen w-full max-w-screen bg-gradient-to-r from-blackdot-200 to-blackdot-100 flex flex-row items-center  relative">
                 <div className="basis-5/12 mr-2">
                     <CardLarge data={largetext}/>
                 </div>
