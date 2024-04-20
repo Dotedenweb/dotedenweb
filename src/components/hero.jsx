@@ -41,9 +41,9 @@ export default function Hero(){
         <section className="px-2 xl:px-48 h-screen	w-full relative py-[80px]" id="hero">
                <div className="overlay absolute top-0 left-0 right-0 bottom-0 w-full h-full z-10"></div>
                <div className="flex flex-col lg:flex-row h-full items-center relative z-10">
-                    <div className="basis-full lg:basis-6/12">
+                    <div className="basis-full lg:basis-7/12">
                     <Maintext/>
-                    <CircleButton/>
+                    <CircleButton text='Ver Planes'/>
                     </div>
 
                </div>

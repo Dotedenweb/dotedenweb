@@ -1,0 +1,22 @@
+<svg id="aboutus_01" data-name="aboutus 01" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 25px;
+        stroke-dasharray: 75 150;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2" data-name="Grupo 2">
+    <g id="Grupo_3" data-name="Grupo 3">
+      <g id="Grupo_4" data-name="Grupo 4">
+        <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M-10,1021.42H1938L1599,8"/>
+      </g>
+    </g>
+  </g>
+</svg>

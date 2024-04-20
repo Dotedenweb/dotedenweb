@@ -4,6 +4,7 @@ import './assets/styles/own.css';
 import Header from "./components/header"
 import Hero from './components/hero';
 import AboutUs from './components/aboutus';
+import Services from './components/services';
 
 export default function App(){
     return (
@@ -12,7 +13,7 @@ export default function App(){
             <Header />
             <Hero/>
             <AboutUs/>
-           
+           <Services/>
          
         </>
     )
