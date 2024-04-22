@@ -6,7 +6,7 @@ import CircleButton from './circlebutton';
 function BgElements(){
     return(
       <>
-        <span className="onebg textstroke textbgsize absolute -top-24 -left-10 z-20 opacity-50">01</span>
+        <span className="onebg textstroke textbgsize absolute -top-24 -left-10 z-20 opacity-50 font-black">01</span>
 
         <img src={linescute} alt="linescute"  className='absolute w-full h-full top-0 left-0 right-0 bottom-0 z-0 object-fill opacity-50'/>
       </>

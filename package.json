@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": ".src/index.js",
+  "homepage": "https://dotedenweb.github.io/dotedenweb/",
   "scripts": {
+    "deploy" : "gh-pages -d dist",
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config  config/webpack.dev.js "
   },
@@ -20,6 +22,7 @@
     "eslint": "^8.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.8.1",
     "postcss": "^8.4.38",

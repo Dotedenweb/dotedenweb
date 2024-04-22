@@ -6,7 +6,7 @@ import megaicon from '../assets/img/megaicon.svg'
 function BgElements(){
     return(
         <>  
-            <p className="twobg textstroke textbgsize absolute -top-28 -right-10 z-20 opacity-50">02</p>
+            <p className="twobg textstroke textbgsize absolute -top-28 -right-10 z-20 opacity-50 font-black">02</p>
         </>
     )
 }
