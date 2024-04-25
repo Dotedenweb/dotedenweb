@@ -90,3 +90,10 @@ background: -webkit-linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0B2C24", endColorstr="#247A4D", GradientType=1 );
   }
+
+
+.taglinesgrow svg{
+  fill: #299873;
+  height: 50px;
+  width: 50px;
+}

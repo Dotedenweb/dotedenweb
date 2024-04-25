@@ -1,20 +1,18 @@
 import './style.css';
 import './assets/styles/fonts.css';
 import './assets/styles/own.css';
-import Header from "./components/header"
-import Hero from './components/hero';
-import AboutUs from './components/aboutus';
-import Services from './components/services';
+import Header from './components/header'
+import Home from  './pages/home'
+import { BrowserRouter } from 'react-router-dom';
+
+
 
 export default function App(){
     return (
-        <>
+    <BrowserRouter>
+     <Header />
+      <Home />
+    </BrowserRouter>
          
-            <Header />
-            <Hero/>
-            <AboutUs/>
-           <Services/>
-         
-        </>
     )
 }

@@ -5,7 +5,7 @@
   "main": ".src/index.js",
   "homepage": "https://dotedenweb.github.io/dotedenweb/",
   "scripts": {
-    "deploy" : "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config  config/webpack.dev.js "
   },
@@ -28,6 +28,7 @@
     "postcss": "^8.4.38",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^9.5.4",
+    "standard": "^17.1.0",
     "tailwindcss": "^3.4.3",
     "terser-webpack-plugin": "^5.3.10"
   },
@@ -46,6 +47,7 @@
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
