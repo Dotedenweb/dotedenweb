@@ -1,18 +1,23 @@
 import Logo from '../assets/img/dotedenweblogo.svg';
 
+import { Link } from 'react-router-dom';
+
 function Navigation(){
         return (
            <nav className="px-2 xl:px-48 py-2 flex flex-row absolute top-0 left-0 h-[80px] w-full z-20">
                 <div className="logo mr-auto max-w-[120px] flex justify-center items-center">
-                    
-                   <img src={Logo} alt="Doteden" />
+                 <Link to='/'>
+                     
+                 <img src={Logo} alt="Doteden" />
                    <h1 className=' text-white mx-2 font-bold text-xl uppercase hidden'>Doteden</h1>
+                 </Link>
                 </div>
 
                 <div class="hidden w-full md:w-auto md:flex flex-row items-center" id="navbar-default">
       <ul class="font-medium flex flex-row p-4 md:p-0  text-lg items-center">
         <li>
-          <a href="#" class="block py-2 px-3 text-white " aria-current="page">Servicios</a>
+       
+        <Link to="/servicios" className='block py-2 px-3 text-white'>Servicios</Link>
         </li>
         <li>
           <a href="#" class="block py-2 px-3 text-white">Nosotros</a>

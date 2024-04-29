@@ -2,6 +2,8 @@
 module.exports = {
     content: [
       "./src/components/*.{html,js,jsx,ts,tsx}",
+      "./src/components/home/*.{html,js,jsx,ts,tsx}",
+      "./src/pages/*.{html,js,jsx,ts,tsx}",
       "./src/*.{html,js,jsx,ts,tsx}",
       "!./node_modules/*/**",
       "!./acf/*/**",

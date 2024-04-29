@@ -25,8 +25,12 @@ const prodConfig = {
         rules:[
             {
                 use: [MiniCssExtractPlugin.loader, "css-loader", 'postcss-loader'],
-                test : /\.css$/i
+                test: /\.(sass|less|css)$/,
             },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: ['file-loader']
+            }
             
         ]
     }

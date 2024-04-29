@@ -97,3 +97,116 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0B2C24", en
   height: 50px;
   width: 50px;
 }
+
+
+/*animatons*/
+
+@keyframes rotateblob {
+        
+  from { 
+    rotate : 0deg;
+  }
+  50%{
+    scale : 1 1.5;
+  }
+  to {
+    rotate : 360deg;
+  }
+}
+
+.blob{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+aspect-ratio: 1;
+height: 300px;
+width: 300px;
+border-radius: 50%;
+background-image: linear-gradient(
+to right,
+#f6ba6f,
+mediumpurple
+);
+
+animation: rotateblob 20s infinite;
+}
+
+.blur{
+position: absolute;
+top: 0;
+left: 0;
+ right: 0;
+ bottom: 0;
+height: 100%;
+width: 100%;
+backdrop-filter: blur(200px);
+}
+
+
+  /*Animation infinity slide logos*/
+
+  @keyframes slide-infinite {
+
+    from{
+        transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+    
+  }
+
+  /*LOGOS CAROUSEL*/
+  .yadev-tecnologies{
+    position: absolute;
+   
+    display: inline-block;
+    height: 100px;
+    white-space: nowrap;
+    width: auto;
+   
+    background: rgb(253,172,52);
+background: linear-gradient(35deg, rgba(253,172,52,1) 39%, rgba(255,152,0,1) 100%);
+
+    overflow: hidden;
+   
+  }
+  .yadev-tecnologies::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 60px;
+      background: rgb(23, 12, 31);
+      background: linear-gradient(-90deg, rgba(23, 12, 31,0) 0%, rgb(253,172,52, 1) 91%);
+      z-index: 10;
+      
+  }
+  .yadev-tecnologies::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60px;
+    background: rgb(23, 12, 31);
+    background: linear-gradient(90deg, rgba(246, 186, 111,0) 0%, rgb(253,172,52,1) 91%);
+    z-index: 10;
+}
+ 
+ .slide-logos{
+ 
+  animation: 120s slide-infinite infinite linear;
+ }
+  .slide-logos > img{
+        display: inline-block;  
+        height: 50px;
+        max-width: 100px;
+        font-size: 0;
+        margin: 0 40px;
+       
+  }
+
+  
